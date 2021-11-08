@@ -8,4 +8,4 @@ Next.js,
 Typescript,
 JS,
 TSX,
-React testing Library
+React testing Library + Jest
