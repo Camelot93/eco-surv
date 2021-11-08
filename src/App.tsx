@@ -18,7 +18,7 @@ const App = () => {
   function retrieveImg (array:ControlArrayTypes[]):void {
       const pathKey:String | null = array[1].value !== null ? array[0].value + "/" + array[1].value : array[0].value
       const url: RequestInfo = `https://dog.ceo/api/breed/${pathKey}/images/random/${Number(array[2].value)}`
-    CallFetch(url).then(v=>v !== null && (v as string[]).length  > 0 ? setDogImg(v as string[]) : setDogImg(dogImg))
+      CallFetch(url).then(v=>v !== null && (v as string[]).length  > 0 ? setDogImg(v as string[]) : setDogImg(dogImg))
   }
 
     return (
