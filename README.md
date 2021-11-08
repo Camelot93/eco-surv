@@ -3,8 +3,8 @@ This Repositorie allows you to retrieve data from https://dog.ceo/ API to get a 
 
 Tech Used:
 
-React,
-Next.JS
+React.js,
+Next.js,
 Typescript,
 JS,
 TSX,
