@@ -1,4 +1,4 @@
-import { render} from '@testing-library/react';
+import {render} from '@testing-library/react';
 import ControlSection from '../components/ControlSection';
 import userEvent from '@testing-library/user-event';
 
