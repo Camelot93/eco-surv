@@ -13,7 +13,6 @@ it("Attributes data to image src and displays it if value is not null || empty a
     console.log("Image not displayed with data value being a empty array")
 
     rerender(<ImagesDisplay data={data}/>)
-    expect(queryByTestId(/Img 0/)).toBeInTheDocument()
     while(i<data.length) {
      expect(getByTestId(`Img ${i}`)).toHaveAttribute('src') 
      console.log("Image displayed with base64 of",getByTestId(`Img ${i}`)?.getAttribute('src'))
