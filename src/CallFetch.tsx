@@ -10,8 +10,7 @@
 
    try{
     const response = await fetch(url, requestOptions);
-    const result = await response.json()
-    return result.message
+    return response.json().message
 
    }catch(e){
     console.log(e)
